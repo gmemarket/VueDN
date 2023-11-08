@@ -15,10 +15,10 @@ public_folder: "/media" # The src attribute for uploaded media will begin with /
 editor:
   preview: false # disabled markdown preview in CMS
 collections:
-  - name: "songs" # Used in routes, e.g., /admin/collections/songs
-    label: "Songs" # Used in the UI
-    label_singular: Song
-    folder: "docs/songs" # The path to the folder where the documents are stored
+  - name: "Psychedelics" # Used in routes, e.g., /admin/collections/songs
+    label: "Psychedelics" # Used in the UI
+    label_singular: Psychedelics
+    folder: "docs/Psychedelics" # The path to the folder where the documents are stored
     nested: # adding a nested object will show the collection folder structure
       depth: 2 # max depth to show in the collection tree
     create: true # Allow users to create new documents in this collection
